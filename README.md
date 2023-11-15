@@ -10,38 +10,34 @@ and a few other variables.
 - [Dataset]
 - [Exploratory Data Analysis (EDA)]
 - [Data Preprocessing]
-- [Model Training and Evaluation]
+- [Model Training]
+- [Evaluation Metrics]
 - [Results]
 - [Usage]
-- [Dependencies]
-- [Contributing]
-- [License]
 
 ## Dataset
 
-The dataset used in this project is the [Diabetes Dataset]((https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset)) sourced from [provide the source or dataset repository].
+The dataset used in this project is the [Diabetes Dataset] sourced from: https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset.
 
 ## Exploratory Data Analysis (EDA)
 
-- Conducted an initial analysis of the dataset to understand its structure, missing values, and relationships between variables.
-- Explored the distribution of predictor variables and their correlation with the outcome variable.
-- Visualized the data through various plots and charts to gain insights.
+- Inidial EDA of the dataset to understand its columns, structure, presence of missing values, and relationships between each other and with outcome variable.
+- Plotted the distribution of predictors and their correlation with the outcome variable.
 
 ## Data Preprocessing
 
 Performed several preprocessing steps, including:
 
-- Handling missing values.
-- Identifying and handling outliers.
-- Scaling and normalization of features.
-- Feature engineering to enhance model performance.
-- Addressing imbalanced data.
+- Checking for missing values.
+- Identifying and handling outliers, replacing values on 1% extremes with ones closer to mean.
+- Scaling/normalizating of predictors
+- Dealing with imbalanced data with oversampling of minority class.
 
 ## Model Training and Evaluation
 
-Trained and evaluated two models:
+Trained/evaluated two models:
 
-1. Logistic Regression
+1. Logistic Regression (base model)
 2. Random Forest (Ensemble)
 
 ### Evaluation Metrics
@@ -51,14 +47,23 @@ Trained and evaluated two models:
 - Recall
 - F1 Score
 - ROC-AUC
+- 5-fold Cross Validation
+- Confusion Matrix
+
 
 ## Results
 
-Compare the performance of the two models using the evaluation metrics. Interpret the results and discuss any notable findings.
+Results indicated overall better performance from the Random Forest Ensemble approach - it performed better on 5 different subsets of the dataset and overall struck a better balance between accuracy and precision as opposed to 
+the base model Logistic Regression. 
+
+That being said, the Logistic Regression did better in recall, correctly identitying positive cases.
 
 ## Usage
 
 1. Clone the repository:
 
-   ```bash
    git clone https://github.com/your-username/diabetes-prediction.git
+
+2. Ensure you have all modules installed (as seen in the .ipynb file)
+
+3. Ensure dataset is in the same working directory.
