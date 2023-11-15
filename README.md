@@ -66,4 +66,4 @@ That being said, the Logistic Regression did better in recall, correctly identit
 
 2. Ensure you have all modules installed (as seen in the .ipynb file)
 
-3. Ensure dataset is in the same working directory.
+3. Ensure dataset (diabetes.csv) is in the same working directory.
