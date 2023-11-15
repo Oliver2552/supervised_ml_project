@@ -19,7 +19,7 @@ and a few other variables.
 
 ## Dataset
 
-The dataset used in this project is the [Diabetes Dataset](link-to-dataset) sourced from [provide the source or dataset repository].
+The dataset used in this project is the [Diabetes Dataset]([link-to-dataset](https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset)) sourced from [provide the source or dataset repository].
 
 ## Exploratory Data Analysis (EDA)
 
