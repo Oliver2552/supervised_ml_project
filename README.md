@@ -1,4 +1,4 @@
-# Diabetes Prediction Project
+# Predictive Modeling for Diabetes Detection
 
 ## Overview
 
