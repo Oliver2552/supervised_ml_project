@@ -5,16 +5,6 @@
 This project aims to predict whether an individual has diabetes (or not) based on several health-related predictors. The dataset used for this analysis contains information such as glucose levels, BMI, age, pregnancies, hereditary caclulations
 and a few other variables.
 
-## Table of Contents
-
-- [Dataset]
-- [Exploratory Data Analysis (EDA)]
-- [Data Preprocessing]
-- [Model Training]
-- [Evaluation Metrics]
-- [Results]
-- [Usage]
-
 ## Dataset
 
 The dataset used in this project is the [Diabetes Dataset] sourced from: https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset.
